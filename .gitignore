@@ -1,0 +1,10 @@
+/bin
+/doxygen
+Doxyfile
+/obj
+/doc
+*xml
+*swp
+!/build
+/build/*
+!/build/quickrebuild.sh

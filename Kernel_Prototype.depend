@@ -1,0 +1,124 @@
+# depslib dependency file v1.0
+1399589491 source:/home/joobog/git/Kernel_Prototype/src/data_controller.cpp
+	<map>
+	<string>
+	"data_controller.hpp"
+
+1399760405 /home/joobog/git/Kernel_Prototype/src/data_controller.hpp
+	<string>
+	<map>
+	<iostream>
+	"i_module.hpp"
+
+1399253640 source:/home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_data_carrier.cpp
+	"modules/demo_module/demo_data_carrier.hpp"
+	<string>
+
+1399557721 /home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_data_carrier.hpp
+	"modules/i_data_carrier.hpp"
+	<string>
+
+1399637003 /home/joobog/git/Kernel_Prototype/src/modules/i_data_carrier.hpp
+
+1399637228 source:/home/joobog/git/Kernel_Prototype/src/modules/gps/gps_module.cpp
+	"gps_task.hpp"
+	"gps_module.hpp"
+	"scheduler.hpp"
+
+1399633325 /home/joobog/git/Kernel_Prototype/src/modules/gps/gps_task.hpp
+	"modules/gps/gps_data.hpp"
+	"i_rttask.hpp"
+
+1399582005 /home/joobog/git/Kernel_Prototype/src/modules/i_rttask.hpp
+	"modules/i_module.hpp"
+	"modules/i_data_carrier.hpp"
+
+1399637687 /home/joobog/git/Kernel_Prototype/src/modules/i_module.hpp
+	"modules/i_data_carrier.hpp"
+	<memory>
+	<iostream>
+	<cassert>
+	<vector>
+
+1399637699 /home/joobog/git/Kernel_Prototype/src/modules/gps/gps_module.hpp
+	"modules/i_module.hpp"
+	"i_rttask.hpp"
+
+1399588132 /home/joobog/git/Kernel_Prototype/src/scheduler.hpp
+	<vector>
+	"modules/i_rttask.hpp"
+	<memory>
+	<vector>
+
+1399588256 source:/home/joobog/git/Kernel_Prototype/src/main.cpp
+	"data_controller.hpp"
+	"scheduler.hpp"
+	"modules/demo_module/demo_module.hpp"
+	"modules/gps/gps_module.hpp"
+
+1399637661 /home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_module.hpp
+	"modules/i_module.hpp"
+	"modules/i_rttask.hpp"
+	"modules/demo_module/demo_data_carrier.hpp"
+	"modules/demo_module/demo_task.hpp"
+	<memory>
+
+1399582017 /home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_task.hpp
+	"modules/i_rttask.hpp"
+	"demo_module/demo_data_carrier.hpp"
+
+1399637111 source:/home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_module.cpp
+	"modules/demo_module/demo_module.hpp"
+	"modules/demo_module/demo_task.hpp"
+
+1399588689 source:/home/joobog/git/Kernel_Prototype/src/scheduler.cpp
+	<chrono>
+	<thread>
+	<vector>
+	<iostream>
+	<cassert>
+	<typeinfo>
+	"scheduler.hpp"
+	"modules/i_rttask.hpp"
+	<random>
+	<memory>
+
+1399587227 source:/home/joobog/git/Kernel_Prototype/src/modules/demo_module/demo_task.cpp
+	<iostream>
+	"demo_task.hpp"
+	"modules/demo_module/demo_data_carrier.hpp"
+	"data_controller.hpp"
+	<random>
+	<functional>
+
+1399583855 source:/home/joobog/git/Kernel_Prototype/src/modules/gps/gps_task.cpp
+	<iostream>
+	"gps_task.hpp"
+	"i_rttask.hpp"
+	"data_carrier.hpp"
+	"data_controller.hpp"
+
+1399557721 /home/joobog/git/Kernel_Prototype/src/data_carrier.hpp
+
+1399584234 source:/home/joobog/git/Kernel_Prototype/src/modules/mod_info.cpp
+	"modules/mod_info.hpp"
+
+1399636872 /home/joobog/git/Kernel_Prototype/src/modules/mod_info.hpp
+	<string>
+	<vector>
+
+1399631899 source:/home/joobog/git/Kernel_Prototype/src/modules/gps/gps_data.cpp
+
+1399633325 /home/joobog/git/Kernel_Prototype/src/modules/gps/gps_data.hpp
+	"modules/gps/i_gps_data.hpp"
+
+1399633008 source:/home/joobog/git/Kernel_Prototype/src/modules/gps/i_gps_data.cpp
+
+1399633325 /home/joobog/git/Kernel_Prototype/src/modules/gps/i_gps_data.hpp
+	"modules/i_data_carrier.hpp"
+
+1399634278 source:/home/joobog/git/Kernel_Prototype/src/modules/data_info.cpp
+
+1399637763 source:/home/joobog/git/Kernel_Prototype/src/modules/i_module.cpp
+	"modules/i_module.hpp"
+

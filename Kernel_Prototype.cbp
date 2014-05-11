@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="Kernel_Prototype" />
+		<Option pch_mode="2" />
+		<Option compiler="clang" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin/Debug/Kernel_Prototype" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Debug/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-std=c++11" />
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin/Release/Kernel_Prototype" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj/Release/" />
+				<Option type="1" />
+				<Option compiler="clang" />
+				<Compiler>
+					<Add option="-O2" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-std=c++11" />
+			<Add option="-fexceptions" />
+			<Add directory="src" />
+			<Add directory="src/test_modules" />
+			<Add directory="src/modules" />
+			<Add directory="src/modules/demo_module" />
+			<Add directory="src/modules/gps" />
+		</Compiler>
+		<Unit filename="src/data_carrier.hpp" />
+		<Unit filename="src/data_controller.cpp" />
+		<Unit filename="src/data_controller.hpp" />
+		<Unit filename="src/main.cpp" />
+		<Unit filename="src/modules/data_info.cpp" />
+		<Unit filename="src/modules/demo_module/demo_data_carrier.cpp" />
+		<Unit filename="src/modules/demo_module/demo_data_carrier.hpp" />
+		<Unit filename="src/modules/demo_module/demo_module.cpp" />
+		<Unit filename="src/modules/demo_module/demo_module.hpp" />
+		<Unit filename="src/modules/demo_module/demo_task.cpp" />
+		<Unit filename="src/modules/demo_module/demo_task.hpp" />
+		<Unit filename="src/modules/gps/gps_data.cpp" />
+		<Unit filename="src/modules/gps/gps_data.hpp" />
+		<Unit filename="src/modules/gps/gps_module.cpp" />
+		<Unit filename="src/modules/gps/gps_module.hpp" />
+		<Unit filename="src/modules/gps/gps_task.cpp" />
+		<Unit filename="src/modules/gps/gps_task.hpp" />
+		<Unit filename="src/modules/gps/i_gps_data.cpp" />
+		<Unit filename="src/modules/gps/i_gps_data.hpp" />
+		<Unit filename="src/modules/i_data_carrier.hpp" />
+		<Unit filename="src/modules/i_module.cpp" />
+		<Unit filename="src/modules/i_module.hpp" />
+		<Unit filename="src/modules/i_rttask.hpp" />
+		<Unit filename="src/scheduler.cpp" />
+		<Unit filename="src/scheduler.hpp" />
+		<Unit filename="src/slack_task.hpp" />
+		<Extensions>
+			<envvars />
+			<code_completion />
+			<debugger />
+			<lib_finder disable_auto="1" />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
